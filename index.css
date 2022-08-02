@@ -65,11 +65,14 @@ background-color: black;
     }
     #increment-btn {
         font-size: 26px;
+        touch-action: manipulation;
     }
     #doubleIncrement-btn {
         font-size: 26px;
+        touch-action: manipulation;
     }
     #tripleIncrement-btn {
         font-size: 26px;
+        touch-action: manipulation;
     }
   }
