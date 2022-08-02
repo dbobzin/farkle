@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: 0284C7;
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150%;
+    
+  }
+h3 {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+   
+}
+
+
+#count-el {
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+
+text-align: center;
+color: white;
+background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+}
+#increment-btn {
+    background: white;
+}
+#doubleIncrement-btn {
+    background: white;
+}
+#tripleIncrement-btn {
+    background: white;
+}
+
+#reset-btn {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    border: 2px solid black;
+    
+    
+}
+
+/* If the screen size is 600px wide or less, make buttons bigger*/
+@media only screen and (max-width: 600px) {
+    #reset-btn {
+    font-size: 30px;
+    }
+    #increment-btn {
+        font-size: 26px;
+    }
+    #doubleIncrement-btn {
+        font-size: 26px;
+    }
+    #tripleIncrement-btn {
+        font-size: 26px;
+    }
+  }
