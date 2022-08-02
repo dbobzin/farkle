@@ -61,6 +61,7 @@ background-color: black;
 @media only screen and (max-width: 600px) {
     #reset-btn {
     font-size: 30px;
+    touch-action: manipulation;
     }
     #increment-btn {
         font-size: 26px;
